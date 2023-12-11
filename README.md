@@ -9,6 +9,7 @@ When you enter the application, you will see the following screen. This page con
    ```swift
    Netmera.requestPushNotificationAuthorization(for: [.alert, .badge, .sound])
 <img src="https://github.com/elifyrktrk/NetmeraAppSwiftSDK/assets/36786466/8a19159f-b2af-4c37-abc2-4415d199cac0" alt="Home Page" width="200" height="350">
+
 2. Push Enable
    ```swift
    Netmera.setEnabledReceivingPushNotifications(true)
