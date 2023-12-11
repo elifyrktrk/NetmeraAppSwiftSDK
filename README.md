@@ -79,7 +79,9 @@ When you enter the application, you will see the following screen. This page con
    ```swift
     Netmera.setEnabledPopupPresentation(false) // to disable showing popup and widget push
     Netmera.setEnabledInAppMessagePresentation(false) // to disable showing banner push
+    ```
 
 12. Send Push Notification With Media > You can review our document for Rich Push notification.
+doc: https://user.netmera.com/netmera-developer-guide/push-notifications/beta-sdk-push/using-media-push
 <img src="https://github.com/elifyrktrk/NetmeraAppSwiftSDK/assets/36786466/22537546-2463-491c-9543-88b0d290c38e"
  alt="Rich Push" width="200" height="350">
