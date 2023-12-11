@@ -38,17 +38,14 @@ When you enter the application, you will see the following screen. This page con
 
 7. Push Inbox
    ```swift
-   //         1. Define inbox manager
-//         2. Create filter for fetching inbox
-
-        let filter = NetmeraInboxFilter(status: .all,
+   //1. Define inbox manager
+   //2. Create filter for fetching inbox
+   let filter = NetmeraInboxFilter(status: .all,
                                         pageSize: 10,
-                                        shouldIncludeExpiredObjects: true
-                                        
+                                        shouldIncludeExpiredObjects: true                                
         )
         // 3. Crete inbox manager instance
         self.inboxManager = Netmera.inboxManager(with: filter)
-    
         inboxManager?.inbox(callback: { result in
             // List inbox
         })
@@ -58,15 +55,15 @@ When you enter the application, you will see the following screen. This page con
    Netmera.requestAdvertisingAuthorization()
 
 9. Enable Popup/Widget/Banner
+    
    <img src="https://github.com/elifyrktrk/NetmeraAppSwiftSDK/assets/36786466/62b07616-9202-465c-b31d-f6299ba75f4f"
  alt="Widget" width="200" height="350">
+ 
    ```swift
    Netmera.setEnabledPopupPresentation(true)// to enable showing popup and widget push
    Netmera.setEnabledInAppMessagePresentation(true) // to enable showing banner push
    
-10. Disable Popup/Widget/Banner
+11. Disable Popup/Widget/Banner
    ```swift
    Netmera.setEnabledPopupPresentation(false) // to disable showing popup and widget push
    Netmera.setEnabledInAppMessagePresentation(false) // to disable showing banner push
-
-   
