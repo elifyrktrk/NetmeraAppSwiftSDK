@@ -66,5 +66,5 @@ When you enter the application, you will see the following screen. This page con
 11. Disable Popup/Widget/Banner
  
    ```swift
-   Netmera.setEnabledPopupPresentation(false) // to disable showing popup and widget push
-   Netmera.setEnabledInAppMessagePresentation(false) // to disable showing banner push
+    Netmera.setEnabledPopupPresentation(false) // to disable showing popup and widget push
+    Netmera.setEnabledInAppMessagePresentation(false) // to disable showing banner push
