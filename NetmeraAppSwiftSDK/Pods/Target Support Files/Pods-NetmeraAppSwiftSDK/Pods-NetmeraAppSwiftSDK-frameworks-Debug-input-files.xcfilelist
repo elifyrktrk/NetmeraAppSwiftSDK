@@ -1,0 +1,12 @@
+${PODS_ROOT}/Target Support Files/Pods-NetmeraAppSwiftSDK/Pods-NetmeraAppSwiftSDK-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Swinject/Swinject.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/NetmeraAdvertisingId/NetmeraAdvertisingId.framework/NetmeraAdvertisingId
+${PODS_XCFRAMEWORKS_BUILD_DIR}/NetmeraAnalytic/NetmeraAnalytic.framework/NetmeraAnalytic
+${PODS_XCFRAMEWORKS_BUILD_DIR}/NetmeraAnalyticAutotracking/NetmeraAnalyticAutotracking.framework/NetmeraAnalyticAutotracking
+${PODS_XCFRAMEWORKS_BUILD_DIR}/NetmeraGeofence/NetmeraGeofence.framework/NetmeraGeofence
+${PODS_XCFRAMEWORKS_BUILD_DIR}/NetmeraLocation/NetmeraLocation.framework/NetmeraLocation
+${PODS_XCFRAMEWORKS_BUILD_DIR}/NetmeraNotification/NetmeraNotification.framework/NetmeraNotification
+${PODS_XCFRAMEWORKS_BUILD_DIR}/NetmeraNotificationCore/NetmeraNotificationCore.framework/NetmeraNotificationCore
+${PODS_XCFRAMEWORKS_BUILD_DIR}/NetmeraNotificationInbox/NetmeraNotificationInbox.framework/NetmeraNotificationInbox
+${PODS_XCFRAMEWORKS_BUILD_DIR}/NetmeraSwiftCore/NetmeraCore.framework/NetmeraCore
+${PODS_XCFRAMEWORKS_BUILD_DIR}/NetmeraNotificationServiceExtension/NetmeraNotificationServiceExtension.framework/NetmeraNotificationServiceExtension

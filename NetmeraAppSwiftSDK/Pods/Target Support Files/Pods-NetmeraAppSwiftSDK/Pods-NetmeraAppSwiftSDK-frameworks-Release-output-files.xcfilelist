@@ -1,0 +1,11 @@
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Swinject.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NetmeraAdvertisingId.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NetmeraAnalytic.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NetmeraAnalyticAutotracking.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NetmeraGeofence.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NetmeraLocation.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NetmeraNotification.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NetmeraNotificationCore.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NetmeraNotificationInbox.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NetmeraCore.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NetmeraNotificationServiceExtension.framework

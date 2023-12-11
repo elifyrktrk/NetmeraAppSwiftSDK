@@ -1,0 +1,63 @@
+PODS:
+  - NetmeraAdvertisingId (4.0.1):
+    - NetmeraAnalytic (= 4.0.1)
+  - NetmeraAnalytic (4.0.1):
+    - NetmeraSwiftCore (= 4.0.1)
+  - NetmeraAnalyticAutotracking (4.0.1):
+    - NetmeraAnalytic (= 4.0.1)
+  - NetmeraGeofence (4.0.1):
+    - NetmeraLocation (= 4.0.1)
+  - NetmeraLocation (4.0.1):
+    - NetmeraAnalytic (= 4.0.1)
+  - NetmeraNotification (4.0.1):
+    - NetmeraNotificationCore (= 4.0.1)
+  - NetmeraNotificationCore (4.0.1):
+    - NetmeraAnalytic (= 4.0.1)
+  - NetmeraNotificationInbox (4.0.1):
+    - NetmeraNotificationCore (= 4.0.1)
+  - NetmeraNotificationServiceExtension (4.0.1):
+    - NetmeraNotificationCore (= 4.0.1)
+  - NetmeraSwiftCore (4.0.1):
+    - Swinject (~> 2.8.0)
+  - Swinject (2.8.3)
+
+DEPENDENCIES:
+  - NetmeraAdvertisingId
+  - NetmeraAnalytic
+  - NetmeraAnalyticAutotracking
+  - NetmeraGeofence
+  - NetmeraLocation
+  - NetmeraNotification
+  - NetmeraNotificationInbox
+  - NetmeraNotificationServiceExtension
+
+SPEC REPOS:
+  trunk:
+    - NetmeraAdvertisingId
+    - NetmeraAnalytic
+    - NetmeraAnalyticAutotracking
+    - NetmeraGeofence
+    - NetmeraLocation
+    - NetmeraNotification
+    - NetmeraNotificationCore
+    - NetmeraNotificationInbox
+    - NetmeraNotificationServiceExtension
+    - NetmeraSwiftCore
+    - Swinject
+
+SPEC CHECKSUMS:
+  NetmeraAdvertisingId: 3e7e9c5163b80669e89189b661bcff0bcee31e34
+  NetmeraAnalytic: 6c09215c586b6568aed4dc925cc6b7c2dd5883d9
+  NetmeraAnalyticAutotracking: 194a468649a443a6df7043eece36e962b9d51059
+  NetmeraGeofence: d0a44da46ddb2c2f1db2ede7e3c9283c924ebf3c
+  NetmeraLocation: b0c4aa7e30f98d0df8373d5bb5410c506e6a8805
+  NetmeraNotification: 0e8890ff9b300463ded7712d60d96235cc7fd71c
+  NetmeraNotificationCore: a0b0ee2752e62e0a48217ba0aae53cb06b709535
+  NetmeraNotificationInbox: a5cff072fe4dd868b806b0797577609c46443ba8
+  NetmeraNotificationServiceExtension: aa43a653772fca431f4a56a459f19fb90a18d69f
+  NetmeraSwiftCore: 1ff9187a05c84867725cc98de57180dadcb063f9
+  Swinject: 893c9a543000ac2f10ee4cbaf0933c6992c935d5
+
+PODFILE CHECKSUM: 923b91f0c38e9f0548b414d32b1dc909e12130b1
+
+COCOAPODS: 1.14.2

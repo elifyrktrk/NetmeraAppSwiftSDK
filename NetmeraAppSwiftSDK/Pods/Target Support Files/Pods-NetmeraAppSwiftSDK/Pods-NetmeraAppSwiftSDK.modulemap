@@ -1,0 +1,6 @@
+framework module Pods_NetmeraAppSwiftSDK {
+  umbrella header "Pods-NetmeraAppSwiftSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
