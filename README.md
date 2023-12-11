@@ -8,6 +8,8 @@ Developer Guide : https://user.netmera.com/netmera-developer-guide/
 
 User Guide : https://user.netmera.com/netmera-user-guide/
 
+Swift SDK : https://user.netmera.com/netmera-developer-guide/initial-sdk-setup/mobile-setup/beta-sdk-integration
+
 
 # HomePage
 
