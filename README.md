@@ -1,5 +1,10 @@
 # NetmeraAppSwiftSDK
 
+Our documents
+Developer Guide : https://user.netmera.com/netmera-developer-guide/
+User Guide : https://user.netmera.com/netmera-user-guide/
+
+
 # HomePage
 
 When you enter the application, you will see the following screen. This page contains buttons to test Netmera's features.
