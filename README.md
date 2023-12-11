@@ -1,5 +1,7 @@
 # NetmeraAppSwiftSDK
 
+This is a demo app containing Netmera's new SDK written with Swift.
+
 **Our documents**
 
 Developer Guide : https://user.netmera.com/netmera-developer-guide/
