@@ -30,6 +30,7 @@ When you enter the application, you will see the following screen. This page con
 5. Location
    ```swift
    Netmera.requestLocationAuthorization()
+   
    <img src="https://github.com/elifyrktrk/NetmeraAppSwiftSDK/assets/36786466/b48e8426-2d2b-425f-baee-052136c2e359" alt="Location Permission" width="200" height="350">
 
 6. Send Event
