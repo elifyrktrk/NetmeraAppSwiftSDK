@@ -49,7 +49,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func btnSendEvent(_ sender: Any) {
-        let event = NetmeraLoginEvent(userId: "user_id")
+        let event = CustomLoginEvent(userId: "euserid",userName: "eusername")
         Netmera.send(event)
     }
     

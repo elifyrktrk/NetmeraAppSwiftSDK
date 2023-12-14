@@ -9,10 +9,10 @@
 		<key>use_ui_scene</key>
 		<false/>
 		<key>api_key</key>
-		<string>your-api-key</string>
+		<string>6OA2GH8nU0glc7wbaD0stFrPLnrFRxAlH40uUVY1h0Z6euO8D8jIwA</string>
 		<key>custom_events</key>
 		<array>
-			<string>{YourCustomEvent}</string>
+			<string>CustomLoginEvent</string>
 		</array>
 	</dict>
 	<key>location_max_active_region</key>
