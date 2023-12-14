@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1A6B38202B2AF965009F2EE6 /* CustomLoginEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6B381F2B2AF965009F2EE6 /* CustomLoginEvent.swift */; };
+		1A6B38222B2AFC88009F2EE6 /* MyNetmeraUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6B38212B2AFC88009F2EE6 /* MyNetmeraUser.swift */; };
 		1AB228232B10E90B0084700F /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB228222B10E90B0084700F /* NotificationService.swift */; };
 		1AB228272B10E90B0084700F /* MyNetmeraServiceExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1AB228202B10E90B0084700F /* MyNetmeraServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		1AB2282C2B10E9100084700F /* Netmera-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1ADEA9C02B10E2E300FD2EFE /* Netmera-Config.plist */; };
@@ -50,6 +51,7 @@
 
 /* Begin PBXFileReference section */
 		1A6B381F2B2AF965009F2EE6 /* CustomLoginEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLoginEvent.swift; sourceTree = "<group>"; };
+		1A6B38212B2AFC88009F2EE6 /* MyNetmeraUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNetmeraUser.swift; sourceTree = "<group>"; };
 		1AB228202B10E90B0084700F /* MyNetmeraServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyNetmeraServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AB228222B10E90B0084700F /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		1AB228242B10E90B0084700F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 				1ADEA9C02B10E2E300FD2EFE /* Netmera-Config.plist */,
 				1ACA43902B15423D00DB7E32 /* NetmeraViewController.swift */,
 				1A6B381F2B2AF965009F2EE6 /* CustomLoginEvent.swift */,
+				1A6B38212B2AFC88009F2EE6 /* MyNetmeraUser.swift */,
 			);
 			path = NetmeraAppSwiftSDK;
 			sourceTree = "<group>";
@@ -345,6 +348,7 @@
 				1ADEA9AD2B10E22F00FD2EFE /* AppDelegate.swift in Sources */,
 				1ADEA9AF2B10E22F00FD2EFE /* SceneDelegate.swift in Sources */,
 				1A6B38202B2AF965009F2EE6 /* CustomLoginEvent.swift in Sources */,
+				1A6B38222B2AFC88009F2EE6 /* MyNetmeraUser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

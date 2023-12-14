@@ -110,6 +110,24 @@
                                     <action selector="btnDisablePopupWidget:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ndu-Lb-a7e"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f7Z-09-LlJ">
+                                <rect key="frame" x="56" y="668" width="282" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="addFavoriteTeam(custom prof att)"/>
+                                <connections>
+                                    <action selector="addFavoriteTeam:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NkO-me-kfU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hEm-2a-Uu7">
+                                <rect key="frame" x="77" y="711" width="239" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="add length (custom prof att)"/>
+                                <connections>
+                                    <action selector="addLength:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0rY-Vy-RrB"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>

@@ -17,6 +17,7 @@ import NetmeraAdvertisingId
 class ViewController: UIViewController {
     
     var  inboxManager: NetmeraInboxManager?
+    var user = MyNetmeraUser()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,7 +37,7 @@ class ViewController: UIViewController {
     
     
     @IBAction func btnUpdateUser(_ sender: Any) {
-        var user = NetmeraUser()
+
         user.userId = "elif"
         user.name = "name"
         user.surname = "surname"
@@ -84,6 +85,19 @@ class ViewController: UIViewController {
     @IBAction func btnDisablePopupWidget(_ sender: Any) {
         Netmera.setEnabledPopupPresentation(false) // to disable showing popup and widget push
         Netmera.setEnabledInAppMessagePresentation(false) // to disable showing banner push
+    }
+   
+    @IBAction func addFavoriteTeam(_ sender: Any) {
+
+        user.userId = "elif"
+        user.favoriteTeam = "favoriteteam"
+        Netmera.updateUser(user: user)
+    }
+    @IBAction func addLength(_ sender: Any) {
+
+        user.userId = "elif"
+        user.length = 10
+        Netmera.updateUser(user: user)
     }
 }
 
